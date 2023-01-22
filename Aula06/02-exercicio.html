@@ -8,8 +8,8 @@
     <style>
         body {
             background-color: rgb(84, 84, 236);
-            color: white;
-            font: normal 20pt Arial;
+            color: white; /* Isso é um comentário em CSS.*/
+            font: normal 20pt Arial; 
         }
         h1 {
             color: rgb(241, 186, 2);
@@ -19,11 +19,13 @@
 </head>
 <body>
     <h1>Olá, Mundo!</h1>
-    <p>Já me livrei da maldição.</p>
+    <p>Já me livrei da maldição.</p> <!--Isso é um comentário em HTML.-->
     <script>
-        window.alert('Minha primeira mensagem!') //pode-se usar alert('') também.
-        window.confirm('Está gostando de JavaScript?') // Janela com botão OK e cancelar.
-        window.prompt('Qual é o seu Nome?') //Botão perguntará o nome.
+     
+        var nome = window.prompt('Qual é o seu Nome?')
+        window.alert('É um grande prazer te conhecer, ' + nome + '!') //concatenação
+        
+        //Botão perguntará o nome.
         //null = vazio 
 
         // pode-se usar var ou let para criar uma variável. 

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa</title>
+    <style>
+        body {
+            background-color: rgb(84, 84, 236);
+            color: white; /* Isso é um comentário em CSS.*/
+            font: normal 20pt Arial; 
+        }
+        h1 {
+            color: rgb(241, 186, 2);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Já me livrei da maldição.</p> <!--Isso é um comentário em HTML.-->
+    <script>
+        var n1 = Number(window.prompt ('Digite um número')) // comando tratará tudo como 'string'
+        var n2 = Number(window.prompt ('Digite outro número')) // string
+        var s = n1 + n2
+        window.alert (`A soma entre ${n1} e ${n2} é igual a ${s}`)
+        // (Number.parseInt) - converter para número tipo inteiro
+        // (Number.parseFloat) - converter para número tipo real
+        // (Number) - verificará automaticamente o tipo númerico
+        // (number + number) para adição
+        // (string + string) para concatenação
+
+        // CONVERTER PARA STRING
+        // (String(n)) 
+        // (n.toString())
+
+        // FORMATANDO STRINGS
+        // var s = 'JavaScript'
+        // 'Eu estou apredendo s' - não faz interpolação
+        // 'Eu estou aprendendo' + s - usar concatenação
+        // `Eu estou aprendendo ${s}` - usa template string
+
+        // s.length - quantos caracteres a string tem
+        // s.toUpperCase() - tudo para 'MAIÚSCULAS'
+        // s.toLowerCase() - tudo para 'minúsculas'
+        
+    </script>
+</body>
+</html>
