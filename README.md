@@ -1,1 +1,1 @@
-💻 Atividades das aulas de PHP do professor Guanabara no Curso em Vídeo. 💻
+💻 Atividades das aulas de JavaScript do professor Guanabara no Curso em Vídeo. 💻
